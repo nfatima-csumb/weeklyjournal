@@ -1,0 +1,287 @@
+i made the quiz for week 1: Java Practice Quiz 1
+
+1. Which method correctly compares the contents of two String objects?
+
+A. ==
+B. equals()
+C. compare()
+D. match()
+
+2. What is printed?
+
+String text = "Java";
+System.out.println(text.toUpperCase());
+
+A. Java
+B. java
+C. JAVA
+D. Error
+
+3. Which declaration creates an ArrayList of Integers?
+
+A. ArrayList<Integer> list = new ArrayList<>();
+
+B. ArrayList<int> list = new ArrayList<>();
+
+C. List<Integer> = new ArrayList<>();
+
+D. Array<Integer> list = new ArrayList<>();
+
+4. What does JVM stand for?
+
+A. Java Variable Method
+
+B. Java Virtual Machine
+
+C. Java Visual Manager
+
+D. Java Version Manager
+
+5. Which keyword is used to catch an exception?
+
+A. throw
+
+B. try
+
+C. catch
+
+D. finally
+
+6. What is happening in the following code?
+
+Integer x = 10;
+
+A. Automatic unboxing
+
+B. Automatic boxing (autoboxing)
+
+C. Casting
+
+D. Inheritance
+
+7. Which collection stores key-value pairs?
+
+A. ArrayList
+
+B. LinkedList
+
+C. HashMap
+
+D. HashSet
+
+8. What is printed?
+
+ArrayList<String> colors = new ArrayList<>();
+colors.add("Red");
+colors.add("Blue");
+colors.add(1, "Green");
+
+System.out.println(colors.get(2));
+
+A. Red
+
+B. Green
+
+C. Blue
+
+D. Error
+
+9. Which exception should be caught first?
+
+A.
+
+Exception
+IOException
+
+B.
+
+IOException
+FileNotFoundException
+
+C.
+
+FileNotFoundException
+IOException
+
+D. It doesn't matter.
+
+10. A public class named Student must be stored in which file?
+
+A. student.java
+
+B. Student.class
+
+C. Main.java
+
+D. Student.java
+
+Answer Key
+B
+C
+A
+B
+C
+B
+C
+C
+C
+D
+Java Practice Quiz 2
+
+1. What is the result of the following operation?
+
+"Hello".equals("hello");
+
+A. true
+
+B. false
+
+C. Hello
+
+D. Error
+
+2. Which method replaces all literal occurrences of a substring?
+
+A. replace()
+
+B. replaceAll()
+
+C. split()
+
+D. substring()
+
+3. What is printed?
+
+String s = "Programming";
+System.out.println(s.substring(3, 6));
+
+A. rog
+
+B. gra
+
+C. ram
+
+D. amm
+
+4. Which declaration correctly creates a HashMap with String keys and Double values?
+
+A. HashMap<String, Double> map = new HashMap<>();
+
+B. HashMap<Double, String> map = new HashMap<>();
+
+C. ArrayList<String, Double> map = new HashMap<>();
+
+D. HashMap[String, Double] map = new HashMap<>();
+
+5. Which code correctly handles an exception?
+
+A.
+
+try {
+riskyMethod();
+} catch (Exception e) {
+System.out.println("Something went wrong.");
+}
+
+B.
+
+attempt {
+riskyMethod();
+} stop (Exception e) {
+System.out.println("Something went wrong.");
+}
+
+C.
+
+catch (Exception e) {
+System.out.println("Something went wrong.");
+}
+try {
+riskyMethod();
+}
+
+D. Java has no exception handling.
+
+6. What is printed?
+
+int value = 5;
+
+public void show(int value) {
+System.out.println(this.value);
+System.out.println(value);
+}
+
+show(8);
+
+A.
+
+5
+8
+
+B.
+
+8
+5
+
+C.
+
+8
+8
+
+D.
+
+5
+5
+
+7. What is printed?
+
+ArrayList<Integer> nums = new ArrayList<>();
+nums.add(10);
+nums.add(20);
+nums.add(30);
+
+System.out.println(nums.get(1));
+
+A. 10
+
+B. 20
+
+C. 30
+
+D. Error
+
+8. What happens if you close System.in?
+
+A. No more keyboard input can be read until the program restarts.
+
+B. Input is redirected to System.out.
+
+C. It automatically reopens.
+
+D. Nothing happens.
+
+9. Which of the following is one of the four pillars of Object-Oriented Programming?
+
+A. Pancakes
+
+B. Interface
+
+C. Inheritance
+
+D. ArrayList
+
+10. Assume getCount() returns 42. Which assertion passes?
+
+A.
+
+assertEquals(getCount(), 42);
+
+B.
+
+assertEquals(getCount(), 22);
+
+C.
+
+assertTrue(getCount() == 22);
+
+D. None of the above.
